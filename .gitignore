@@ -1,0 +1,29 @@
+# Generated at install time on the server — these hold the REALITY private key
+# and the full user list. They must never reach a remote, private repo or not.
+config.json
+server.env
+*.key
+*.pem
+*.crt
+
+# client links / QR exports
+links/
+*.png
+
+# large local artifacts
+*.iso
+*.vhdx
+*.zip
+
+.DS_Store
+
+# runtime state, credentials, logs, and backups
+.env
+.env.*
+*.log
+*.tgz
+*.tar
+*.tar.gz
+*.bak
+*.backup
+__pycache__/
